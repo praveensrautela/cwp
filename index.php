@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CWP - Marketing & Growth</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+</head>
+
+<body>
+  <div class="headerbar">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark  px-3">
+        <a class="navbar-brand d-flex align-items-center" href="#" aria-label="CWP home page">
+          <div class="logo-box" aria-hidden="true">
+            <img src="images/cwslogo.png" alt="" style="height: 40px">
+          </div>
+          <span class="ms-2 text-white fw-semibold">CWP</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <!-- Center nav links -->
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" tabindex="0">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="0">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="0">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="0">Portfolio</a>
+            </li>
+          </ul>
+
+          <!-- Contact button pinned to right -->
+          <div class="d-flex">
+            <a href="#" class="btn btn-yellow btnswp" tabindex="0">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <header class="hero-section" role="banner" aria-label="Main marketing message">
+    <h1 class=" animate__bounceInDown">We build, grow and <br />help you scale</h1>
+    <p class="lead  animate__fadeInLeft">By bringing the best strategic marketing initiatives and growth consulting that
+      aligns with your
+      brand's
+      mission.</p>
+
+    <div class="segment-container" aria-label="Target audiences for our services">
+      <span class="label">For</span>
+      <span class="tag" tabindex="0">Startups</span>
+      <span class="label">,</span>
+      <span class="tag" tabindex="0">D2C Brands</span>
+      <span class="label">,</span>
+      <span class="tag" tabindex="0">Founders</span>
+      <span class="label">and</span>
+      <span class="tag" tabindex="0">Growth-Focused Enterprises</span>
+    </div>
+
+    <div class="hero-buttons" role="group" aria-label="Call to action buttons">
+      <button type="button"
+        class="btn btn-outline-secondary btnswp  animate__animated animate__fadeInLeft text-white">Our
+        Works</button>
+      <button type="button" class="btn btn-yellow btnswp animate__animated animate__fadeInRight">Contact Us</button>
+    </div>
+  </header>
+
+  <section class="trusted-brand">
+    <div class="logos firstpartnerts">
+      <div class="logos-slide leftslide">
+        <img src="http://localhost/cwp/images/cwslogo.png" />
+        <img src="http://localhost/cwp/images/cwslogo.png" />
+        <img src="http://localhost/cwp/images/cwslogo.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyformeretail.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyinggroup.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-embdeals.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buygetrewards.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-maxoutdeals.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-mysbuyinggroup.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-closeoutnj.png" />
+      </div>
+    </div>
+
+    <div class="logos" style="background-color: #3a3a3a;">
+      <div class="logos-slide rightslide">
+        <img src="https://tmb001.vercel.app/images/partners/logo-pointsmaker.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyersforpoints.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-dealandrunner.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyformeretail.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyinggroup.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-embdeals.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buygetrewards.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-maxoutdeals.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-mysbuyinggroup.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-closeoutnj.png" />
+      </div>
+    </div>
+
+    <div class="logos">
+      <div class="logos-slide leftslide">
+        <img src="https://tmb001.vercel.app/images/partners/logo-pointsmaker.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyersforpoints.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-dealandrunner.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyformeretail.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buyinggroup.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-embdeals.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-buygetrewards.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-maxoutdeals.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-mysbuyinggroup.png" />
+        <img src="https://tmb001.vercel.app/images/partners/logo-closeoutnj.png" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="services-section">
+    <div class="container">
+      <h2 class="text-center mb-3">Our <span class="text-warningclr">Services</span> </h2>
+      <p class="text-center mb-5 text-secondary">
+        We offer end-to-end support across marketing and operations to help you generate quality leads, improve
+        retention, and streamline growth.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-right">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-brush"></i></div>
+              <h5>Growth Marketing</h5>
+              <p>We craft and execute strategies that drive consistent, qualified leads using SEO, email, and social
+                media.<br><br>
+                Our campaigns are built to scale your visibility and conversions, not just vanity metrics.<br>
+                Grow predictably with marketing systems that actually work.</p>
+              <button class="btn mt-3">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-puzzle-fill"></i></div>
+              <h5>Performance Marketing</h5>
+              <p>Maximize ROI with paid campaigns across Meta, Google, and LinkedIn tailored for growth.<br><br>
+                We focus on CAC, ROAS, and conversions—not just clicks.<br>
+                Every ad dollar you spend is optimized to deliver measurable business impact.</p>
+              <button class="btn mt-3">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-right">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-camera-reels-fill"></i></div>
+              <h5>Demand Generation</h5>
+              <p>We don’t just create awareness — we spark intent and drive inbound interest.<br><br>
+                Using multi-channel funnels, we guide potential customers from discovery to decision.<br>
+                Generate demand that turns into pipeline and profit.</p>
+              <button class="btn mt-3">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-rocket-takeoff-fill"></i></div>
+              <h5>End-to-End Marketing Ops</h5>
+              <p>From automation to reporting, we handle the backend that powers your front-end growth.<br><br>
+                We set up and manage tools, workflows, and systems to ensure your campaigns run smoothly.</p>
+              <button class="btn mt-3">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-right">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-puzzle-fill"></i></div>
+              <h5>Personal Branding</h5>
+              <p>Build a powerful digital identity that positions you as a thought leader in your space.<br><br>
+                From content strategy to profile optimization, we help founders and leaders grow influence.<br>
+                Turn your presence into trust, and trust into leads.</p>
+              <button class="btn mt-3">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-camera-reels-fill"></i></div>
+              <h5>Influencer Marketing</h5>
+              <p>Leverage creator-driven storytelling to boost credibility and reach the right audience.<br><br>
+                We identify, onboard, and manage influencers aligned with your brand’s voice and goals.<br>
+                Authentic collaborations that drive engagement and sales.</p>
+              <button class="btn mt-3">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="services-section">
+    <div class="container">
+      <h2 class="text-center mb-3">Why <span class="text-warningclr">Choose CWP?</span> </h2>
+      <p class="text-center mb-5 text-secondary">
+        Built for founders, loved by teams.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-md-6 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-down-right">
+            <div class="card-inner">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-box"><i class="bi bi-brush"></i></div>
+                </div>
+                <div class="col-10 m-auto">
+                  <h5>Revenue-Centric Mindset</h5>
+                </div>
+              </div>
+              <p>We're not here to just make noise, we focus on generating real, trackable revenue.
+                <br> <br>
+                Every campaign is built with clear KPIs: leads, conversions, and ROI that scale with your goals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-down-left">
+            <div class="card-inner">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-box"><i class="bi bi-brush"></i></div>
+                </div>
+                <div class="col-10 m-auto">
+                  <h5>Proven Multi-Channel Expertise</h5>
+                </div>
+              </div>
+              <p>From cold emails and SEO to LinkedIn, WhatsApp, and paid ads — we go where your audience is.
+                <br> <br>
+                Our team knows how to build integrated campaigns that perform across every platform.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-down-right">
+            <div class="card-inner">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-box"><i class="bi bi-brush"></i></div>
+                </div>
+                <div class="col-10 m-auto">
+                  <h5>Consulting Meets Execution</h5>
+                </div>
+              </div>
+              <p>We bring the perfect blend of strategy and hands-on execution under one roof.
+
+                <br> <br>
+                Whether you're starting fresh or scaling fast, we guide, build, optimize, and grow with you.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-down-left">
+            <div class="card-inner">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-box"><i class="bi bi-brush"></i></div>
+                </div>
+                <div class="col-10 m-auto">
+                  <h5>Collaborative Growth Partner</h5>
+                </div>
+              </div>
+              <p>We work as an extension of your internal team, not as outsiders.
+
+                <br> <br>
+                Expect proactive communication, shared dashboards, and full visibility into every step we take.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-down-right">
+            <div class="card-inner">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-box"><i class="bi bi-brush"></i></div>
+                </div>
+                <div class="col-10 m-auto">
+                  <h5>Founder-Friendly Systems</h5>
+                </div>
+              </div>
+              <p>CWP is built to support lean teams and fast-moving founders.
+                <br> <br>
+                We simplify operations, automate where needed, and keep execution nimble — just like your startup.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-down-left">
+            <div class="card-inner">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-box"><i class="bi bi-brush"></i></div>
+                </div>
+                <div class="col-10 m-auto">
+                  <h5>Sustainable & Scalable Results</h5>
+                </div>
+              </div>
+              <p>We don't chase short-term hacks — we build long-term growth engines.
+                <br> <br>
+                From brand building to performance marketing, everything is designed to last and scale.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contactus-section">
+    <!-- Stats -->
+    <div class="container stats-box text-dark">
+      <div class="row">
+        <div class="col-md-4 stats-item">
+          <h2 class="counter" data-count="100">0</h2>
+          <p>Projects Completed</p>
+        </div>
+        <div class="col-md-4 stats-item">
+          <h2 class="counter" data-count="15">0</h2>
+          <p>Industries Covered</p>
+        </div>
+        <div class="col-md-4 stats-item">
+          <h2 class="counter" data-count="99">0</h2>
+          <p>Satisfaction Rate</p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section">
+    <div class="container contact-content">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Contact & Join Together</h2>
+        <p>Let's get this conversation started, talk with an expert to create a customized marketing strategy that
+          blends <br class="d-none d-md-block">
+          proven strategy with tactical instruction and guarantees results.</p>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-4">
+          <div class="contact-form">
+            <h4 class=" mb-3 text-center contactheading">Get In Touch !</h4>
+            <p class="text-center">Let's get this conversation started</p>
+            <form>
+              <input type="text" class="form-control mb-3" placeholder="Your Name*" required>
+              <input type="text" class="form-control mb-3" placeholder="Your Business Name">
+              <input type="email" class="form-control mb-3" placeholder="Your Email*" required>
+              <input type="tel" class="form-control mb-3" placeholder="Your Phone Number*" required>
+              <textarea class="form-control mb-3" placeholder="Message" rows="4"></textarea>
+              <button type="submit" data-aos="zoom-in">SUBMIT MESSAGE</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4 contact-info">
+          <div class="row">
+            <div class="col-2 m-auto">
+              <img src="images/location.png" alt="" height="53">
+            </div>
+            <div class="col-10" data-aos="fade-left">
+              <b>Office Address :</b>
+              <br>
+              <p class="mb-0">plot no 5, Saraswathi Nagar 4th Street, Adambakkam
+                , Chennai 88</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-2 m-auto">
+              <img src="images/phone.png" alt="" height="53">
+            </div>
+            <div class="col-10" data-aos="fade-left">
+              <b>Phone Number :</b>
+              <br>
+              <p class="mb-0">(+91) 9790812154</p>
+            </div>
+          </div>
+          <hr>
+
+          <div class="row">
+            <div class="col-2 m-auto">
+              <img src="images/mail.png" alt="" height="53">
+            </div>
+            <div class="col-10" data-aos="fade-left">
+              <b>Mail Address :</b>
+              <br>
+              <p class="mb-0">support@consultwithprofessionals.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 contact-img">
+          <img src="images/business-women.png" alt="Business Woman">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer-section py-5 text-white">
+    <div class="container">
+      <div class="row gy-4">
+
+        <!-- Logo & About -->
+        <div class="col-lg-3 col-md-6">
+          <h5 class="fw-bold mb-3">
+            <img src="images/cwslogo.png" alt="CWP Logo" height="30" class="me-2">
+            CWP
+          </h5>
+          <p>CREATING THE RIGHT MARKETING ENVIRONMENT FOR SMEs BY DIGITAL TRANSFORMATION</p>
+          <div class="d-flex gap-2 mt-3">
+            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-3">USEFUL LINKS</h6>
+          <ul class="list-unstyled footer-links">
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">About Us</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Blog</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Portfolio</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-3">SERVICES</h6>
+          <ul class="list-unstyled footer-links">
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Growth Marketing</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Performance Marketing</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Demand Generation</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">End-to-End Marketing Ops</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Personal Branding</a></li>
+            <li><i class="bi bi-arrow-right-short text-warningclr"></i> <a href="#">Influencer Marketing</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-3">CONTACT</h6>
+          <p>Feel free to contact & reach us !!</p>
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill text-warningclr"></i>
+            </div>
+            <div class="col-11">
+              <p> plot no 5, Saraswathi Nagar 4th Street, Adambakkam, Chennai 88</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill text-warningclr"></i>
+            </div>
+            <div class="col-11">
+              <p> (+91) 9790812154</p>
+            </div>
+          </div>
+
+
+          <p> </p>
+          <p><i class="bi bi-envelope-fill text-warningclr"></i> support@consultwithprofessionals.com</p>
+        </div>
+
+      </div>
+      <hr class="border-secondary mt-4">
+      <div class="text-center small">
+        Copyright © 2025 consult with professionals. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+
+  <!-- Bootstrap 5 JS Bundle (Popper + JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1200,
+    })
+  </script>
+  <script>
+    document.querySelectorAll('.logos-slide').forEach(slide => {
+      const copy = slide.cloneNode(true);
+      slide.parentNode.appendChild(copy);
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      var counted = false;
+
+      $(window).scroll(function () {
+        var oTop = $('.stats-box').offset().top - window.innerHeight;
+        if (!counted && $(window).scrollTop() > oTop) {
+          $('.counter').each(function () {
+            var $this = $(this),
+              countTo = $this.attr('data-count');
+
+            $({ countNum: 0 }).animate(
+              { countNum: countTo },
+              {
+                duration: 2000,
+                easing: 'swing',
+                step: function () {
+                  $this.text(Math.floor(this.countNum) + ($this.data('count') >= 99 ? '%' : '+'));
+                },
+                complete: function () {
+                  $this.text(this.countNum + ($this.data('count') >= 99 ? '%' : '+'));
+                }
+              }
+            );
+          });
+          counted = true;
+        }
+      });
+    });
+
+
+  </script>
+</body>
+
+</html>
