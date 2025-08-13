@@ -210,11 +210,11 @@ body {
 }
 
 .logos-slide.leftslide {
-  animation: 35s slide infinite linear;
+  animation: 15s slide infinite linear;
 }
 
 .logos-slide.rightslide {
-  animation: 35s slideright infinite linear;
+  animation: 15s slideright infinite linear;
 
 }
 
@@ -452,3 +452,37 @@ body {
 }
 
 /* footer end  */
+
+
+
+
+/* media query  */
+
+@media screen and (max-width: 768px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-section {
+    padding: 10px;
+  }
+
+  .hero-section h1 {
+    font-size: 30px;
+  }
+
+  .segment-container {
+    padding: 5px;
+    gap: 0.4rem;
+  }
+
+  .trusted-brand::before {
+    width: max-content;
+  }
+
+}
+
+
+/* media query  */
