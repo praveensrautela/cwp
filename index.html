@@ -47,12 +47,41 @@
 
           <!-- Contact button pinned to right -->
           <div class="d-flex">
-            <a href="#contact-us" class="btn btn-yellow btnswp" tabindex="0">Contact Us</a>
+            <a type="button" class="btn btn-yellow btnswp" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+              tabindex="0">Contact Us</a>
           </div>
         </div>
       </nav>
     </div>
   </div>
+
+  <!-- contact form model  -->
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="contact-form">
+          <h4 class=" mb-3 text-center text-dark">Get In Touch !</h4>
+          <p class="text-center text-dark">Let's get this conversation started</p>
+          <form>
+            <input type="text" class="form-control mb-3" placeholder="Your Name*" required>
+            <input type="text" class="form-control mb-3" placeholder="Your Business Name">
+            <input type="email" class="form-control mb-3" placeholder="Your Email*" required>
+            <input type="tel" class="form-control mb-3" placeholder="Your Phone Number*" required>
+            <textarea class="form-control mb-3" placeholder="Message" rows="4"></textarea>
+            <button type="submit" data-aos="zoom-in">SUBMIT MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact form model  -->
 
   <header class="hero-section" id="home" role="banner" aria-label="Main marketing message">
     <h1 class=" animate__bounceInDown">We build, grow and <br />help you scale</h1>
@@ -73,10 +102,11 @@
     </div>
 
     <div class="hero-buttons" role="group" aria-label="Call to action buttons">
-      <button type="button"
-        class="btn btn-outline-secondary btnswp  animate__animated animate__fadeInLeft text-white">Our
-        Works</button>
-      <button type="button" class="btn btn-yellow btnswp animate__animated animate__fadeInRight">Contact Us</button>
+      <button type="button" onclick="location.href='#services'"
+        class="btn btn-outline-secondary btnswp  animate__animated animate__fadeInLeft text-white">Over
+        Services</button>
+      <button type="button" onclick="location.href='#contact-us'"
+        class="btn btn-yellow btnswp animate__animated animate__fadeInRight">Contact Us</button>
     </div>
   </header>
 
@@ -120,14 +150,13 @@
     </div>
   </section>
 
-
-
   <section class="services-section" id="services">
     <div class="container">
       <h2 class="text-center mb-3"><b>Our <span class="text-warningclr">Services</span> </b></h2>
       <p class="text-center mb-5 text-secondary">
-        We offer end-to-end support across marketing and operations to help you generate quality leads, improve
-        retention, and streamline growth.
+        We manage your entire marketing ecosystem under one roof with no multiple vendors, freelancers, or internal
+        overhead. Save time, reduce costs, and scale faster with a dedicated team of experts, assigned per project,
+        along with a dedicated account manager providing 9x7 support.
       </p>
 
       <div class="row g-4">
@@ -135,12 +164,13 @@
           <div class="service-card w-100 bordershadow" data-aos="fade-up-right">
             <div class="card-inner">
               <div class="icon-box"><i class="bi bi-brush"></i></div>
-              <h5>Growth Marketing</h5>
-              <p>We craft and execute strategies that drive consistent, qualified leads using SEO, email, and social
-                media.<br><br>
-                Our campaigns are built to scale your visibility and conversions, not just vanity metrics.<br>
-                Grow predictably with marketing systems that actually work.</p>
-              <button class="btn mt-3">Learn More</button>
+              <h5>Strategy & Planning</h5>
+              <p>Define your Ideal Customer Profile (ICP) and target audience <br><br>
+                Map your Go-To-Market (GTM) strategy from awareness to conversions
+                <br><br>
+                Build sales funnels, lead stages, and campaign roadmaps <br><br>
+                Align marketing and branding strategies with measurable business outcomes
+              </p>
             </div>
           </div>
         </div>
@@ -149,11 +179,13 @@
           <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
             <div class="card-inner">
               <div class="icon-box"><i class="bi bi-puzzle-fill"></i></div>
-              <h5>Performance Marketing</h5>
-              <p>Maximize ROI with paid campaigns across Meta, Google, and LinkedIn tailored for growth.<br><br>
-                We focus on CAC, ROAS, and conversions—not just clicks.<br>
-                Every ad dollar you spend is optimized to deliver measurable business impact.</p>
-              <button class="btn mt-3">Learn More</button>
+              <h5>CRM & Marketing Automation</h5>
+              <p>Setup and manage tools like HubSpot, Marketo, Salesforce, Zoho
+                <br><br>
+                Automate email, WhatsApp, and drip campaigns
+                <br><br>
+                Implement lead scoring, segmentation, and analytics dashboards <br><br>
+              </p>
             </div>
           </div>
         </div>
@@ -162,11 +194,12 @@
           <div class="service-card w-100 bordershadow" data-aos="fade-up-right">
             <div class="card-inner">
               <div class="icon-box"><i class="bi bi-camera-reels-fill"></i></div>
-              <h5>Demand Generation</h5>
-              <p>We don’t just create awareness — we spark intent and drive inbound interest.<br><br>
-                Using multi-channel funnels, we guide potential customers from discovery to decision.<br>
-                Generate demand that turns into pipeline and profit.</p>
-              <button class="btn mt-3">Learn More</button>
+              <h5>Outreach & Demand Generation</h5>
+              <p>Targeted cold outreach via LinkedIn, WhatsApp, Email<br><br>
+                Sequenced follow-ups, booking support, and engagement <br><br>
+                Optimized sales scripts, value messaging, and nurturing sequences<br><br>
+                Generate inbound interest and qualified leads consistently<br><br>
+              </p>
             </div>
           </div>
         </div>
@@ -175,10 +208,14 @@
           <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
             <div class="card-inner">
               <div class="icon-box"><i class="bi bi-rocket-takeoff-fill"></i></div>
-              <h5>End-to-End Marketing Ops</h5>
-              <p>From automation to reporting, we handle the backend that powers your front-end growth.<br><br>
-                We set up and manage tools, workflows, and systems to ensure your campaigns run smoothly.</p>
-              <button class="btn mt-3">Learn More</button>
+              <h5>Performance Marketing
+              </h5>
+              <p>Paid campaigns across Google, Meta, Amazon ,YouTube, Quora, Reddit
+                <br><br>
+                Landing page A/B testing to maximize conversions <br><br>
+
+                Optimize campaigns for CAC, ROAS, and measurable business impact
+              </p>
             </div>
           </div>
         </div>
@@ -187,11 +224,13 @@
           <div class="service-card w-100 bordershadow" data-aos="fade-up-right">
             <div class="card-inner">
               <div class="icon-box"><i class="bi bi-puzzle-fill"></i></div>
-              <h5>Personal Branding</h5>
-              <p>Build a powerful digital identity that positions you as a thought leader in your space.<br><br>
-                From content strategy to profile optimization, we help founders and leaders grow influence.<br>
-                Turn your presence into trust, and trust into leads.</p>
-              <button class="btn mt-3">Learn More</button>
+              <h5>SEO & Organic Growth</h5>
+              <p>Complete website audit and on-page optimization<br><br>
+                Technical SEO: speed, schema, mobile-friendliness, indexing
+                <br><br>
+                Keyword strategy, backlink building, content planning <br><br>
+                Grow organic visibility, traffic, and authority
+              </p>
             </div>
           </div>
         </div>
@@ -200,14 +239,50 @@
           <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
             <div class="card-inner">
               <div class="icon-box"><i class="bi bi-camera-reels-fill"></i></div>
-              <h5>Influencer Marketing</h5>
-              <p>Leverage creator-driven storytelling to boost credibility and reach the right audience.<br><br>
-                We identify, onboard, and manage influencers aligned with your brand’s voice and goals.<br>
-                Authentic collaborations that drive engagement and sales.</p>
-              <button class="btn mt-3">Learn More</button>
+              <h5>Content Marketing & Thought Leadership</h5>
+              <p>Blogs, whitepapers, case studies tailored to buyer journey
+                <br><br>
+                Drip campaigns, newsletters, long-form content, and lead magnets<br> <br>
+                Thought leadership content to establish founders and leaders as industry authorities.
+              </p>
             </div>
           </div>
         </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-camera-reels-fill"></i></div>
+              <h5>Social Media Management & Branding</h5>
+              <p>Monthly content calendars, designs, and community management
+                <br><br>
+                Follower growth, engagement campaigns, reels, stories, and posts<br> <br>
+                Performance tracking and analytics for social growth <br><br>
+                Influencer collaborations to boost credibility and reach
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 d-flex">
+          <div class="service-card w-100 bordershadow" data-aos="fade-up-left">
+            <div class="card-inner">
+              <div class="icon-box"><i class="bi bi-camera-reels-fill"></i></div>
+              <h5>Creative & Full Branding</h5>
+              <p>UI/UX design for web and mobile apps
+                <br><br>
+                Brand identity development: logos, color palettes, typography, and brand guidelines<br> <br>
+                Ad creatives, social media graphics, brochures, pitch decks, explainer videos, reels, and animations
+                <br><br>
+                Campaign assets and marketing collateral aligned with your brand voice
+                <br><br>
+                End-to-end brand consistency across all touchpoints
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -232,9 +307,7 @@
                   <h5>Revenue-Centric Mindset</h5>
                 </div>
               </div>
-              <p>We're not here to just make noise, we focus on generating real, trackable revenue.
-                <br> <br>
-                Every campaign is built with clear KPIs: leads, conversions, and ROI that scale with your goals.
+              <p>Every campaign and brand initiative is designed to drive measurable leads, conversions, and ROI.
               </p>
             </div>
           </div>
@@ -248,12 +321,10 @@
                   <div class="icon-box"><i class="bi bi-brush"></i></div>
                 </div>
                 <div class="col-10 m-auto">
-                  <h5>Proven Multi-Channel Expertise</h5>
+                  <h5>Multi-Channel Expertise</h5>
                 </div>
               </div>
-              <p>From cold emails and SEO to LinkedIn, WhatsApp, and paid ads — we go where your audience is.
-                <br> <br>
-                Our team knows how to build integrated campaigns that perform across every platform.
+              <p>Integrated campaigns across SEO, content, paid ads, outreach, social media, and branding.
               </p>
             </div>
           </div>
@@ -268,14 +339,10 @@
                   <div class="icon-box"><i class="bi bi-brush"></i></div>
                 </div>
                 <div class="col-10 m-auto">
-                  <h5>Consulting Meets Execution</h5>
+                  <h5>Dedicated Teams & Account Manager</h5>
                 </div>
               </div>
-              <p>We bring the perfect blend of strategy and hands-on execution under one roof.
-
-                <br> <br>
-                Whether you're starting fresh or scaling fast, we guide, build, optimize, and grow with you.
-
+              <p>Each project has a dedicated team plus account manager with 9x7 support.
               </p>
             </div>
           </div>
@@ -290,14 +357,10 @@
                   <div class="icon-box"><i class="bi bi-brush"></i></div>
                 </div>
                 <div class="col-10 m-auto">
-                  <h5>Collaborative Growth Partner</h5>
+                  <h5>Weekly Progress Reports & Growth Insights</h5>
                 </div>
               </div>
-              <p>We work as an extension of your internal team, not as outsiders.
-
-                <br> <br>
-                Expect proactive communication, shared dashboards, and full visibility into every step we take.
-
+              <p>Transparent updates, ROI tracking, and actionable recommendations.
               </p>
             </div>
           </div>
@@ -315,9 +378,8 @@
                   <h5>Founder-Friendly Systems</h5>
                 </div>
               </div>
-              <p>CWP is built to support lean teams and fast-moving founders.
-                <br> <br>
-                We simplify operations, automate where needed, and keep execution nimble — just like your startup.
+              <p> Lean, scalable processes keep execution fast, nimble, and sustainable.
+
               </p>
             </div>
           </div>
@@ -335,16 +397,18 @@
                   <h5>Sustainable & Scalable Results</h5>
                 </div>
               </div>
-              <p>We don't chase short-term hacks — we build long-term growth engines.
-                <br> <br>
-                From brand building to performance marketing, everything is designed to last and scale.
+              <p>Long-term growth engines that grow with your business.
               </p>
             </div>
           </div>
         </div>
 
-
       </div>
+      <p class="text-center mt-5" style="color: #cccccc;">CWP doesn't just execute marketing, we build, manage, and
+        scale your entire brand and
+        marketing ecosystem,
+        turning presence into trust, trust into leads, and leads into revenue.
+      </p>
     </div>
   </section>
 
@@ -352,17 +416,21 @@
     <!-- Stats -->
     <div class="container stats-box text-dark">
       <div class="row">
-        <div class="col-md-4 stats-item">
-          <h2 class="counter" data-count="100">0</h2>
-          <p>Projects Completed</p>
+        <div class="col-md-3 stats-item">
+          <h2 class="counter" data-count="107">0</h2>
+          <p>Brands Trusted Us</p>
         </div>
-        <div class="col-md-4 stats-item">
+        <div class="col-md-3 stats-item">
           <h2 class="counter" data-count="15">0</h2>
           <p>Industries Covered</p>
         </div>
-        <div class="col-md-4 stats-item">
-          <h2 class="counter" data-count="99">0</h2>
-          <p>Satisfaction Rate</p>
+        <div class="col-md-3 stats-item">
+          <h2 class="counter" data-count="10">0</h2>
+          <p>ROI Delivered</p>
+        </div>
+        <div class="col-md-3 stats-item">
+          <h2 class="counter" data-count="36">0</h2>
+          <p>Countries Reached</p>
         </div>
       </div>
     </div>
@@ -450,9 +518,12 @@
           </h5>
           <p>CREATING THE RIGHT MARKETING ENVIRONMENT FOR SMEs BY DIGITAL TRANSFORMATION</p>
           <div class="d-flex gap-2 mt-3">
-            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61553850327687" target="_blank" class="social-icon"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/consult_with_professionals?igsh=aXpnODhhMnJ6MHNt" target="_blank"
+              class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/consult-with-professionals/posts/?feedView=all" target="_blank"
+              class="social-icon"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -515,6 +586,36 @@
     </div>
   </footer>
 
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/9790812154" target="_blank" id="whatsapp-btn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+  </a>
+
+  <style>
+    #whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+      background: #25D366;
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s;
+    }
+
+    #whatsapp-btn img {
+      width: 40px;
+      height: 40px;
+    }
+
+    #whatsapp-btn:hover {
+      transform: scale(1.1);
+    }
+  </style>
+
+
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
@@ -554,10 +655,10 @@
                 duration: 2000,
                 easing: 'swing',
                 step: function () {
-                  $this.text(Math.floor(this.countNum) + ($this.data('count') >= 99 ? '%' : '+'));
+                  $this.text(Math.floor(this.countNum) + ($this.data('count') == 10 ? 'X' : '+'));
                 },
                 complete: function () {
-                  $this.text(this.countNum + ($this.data('count') >= 99 ? '%' : '+'));
+                  $this.text(this.countNum + ($this.data('count') == 10 ? 'X' : '+'));
                 }
               }
             );
