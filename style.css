@@ -57,7 +57,7 @@ body {
   font-weight: 700;
   font-size: 1.1rem;
   padding: 0.5rem 0.65rem;
-  /* border-radius: 0.25rem; */
+  border-radius: 0.25rem;
   display: inline-flex;
   align-items: center;
   user-select: none;
@@ -350,6 +350,7 @@ body {
 
 .contact-section {
   background: url('Images/contactbg.jpg') no-repeat center center/cover;
+  /* background: rgba(0, 0, 0, 0.1); */
   position: relative;
   padding: 100px 0 0 0px;
   color: #000;
@@ -495,9 +496,9 @@ body {
 }
 
 .bookstrategy {
-  position: absolute;
+  /* position: absolute;
   bottom: 10%;
-  left: 5%;
+  left: 5%; */
   background: #ffcc00;
   color: black;
   font-weight: bold;
@@ -509,10 +510,16 @@ body {
 }
 
 .linkedingbtn {
-  position: absolute;
+  /* position: absolute;
   bottom: 20%;
-  right: 5%;
+  right: 5%; */
 }
+
+.neerjimg {
+  position: relative;
+  z-index: 999;
+}
+
 
 
 @media screen and (max-width: 425px) {
