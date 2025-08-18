@@ -485,4 +485,49 @@ body {
 }
 
 
-/* media query  */
+/* media query end */
+
+
+/* neeraj card start */
+.neerajcard {
+  position: relative;
+}
+
+.bookstrategy {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  background: #ffcc00;
+  color: black;
+  font-weight: bold;
+}
+
+.bookstrategy:hover {
+  background: #ffcc00;
+  color: black;
+}
+
+.linkedingbtn {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+}
+
+
+@media screen and (max-width: 425px) {
+  .linkedingbtn img {
+    width: 25px !important;
+  }
+
+  .bookstrategy {
+    font-size: 8px;
+  }
+
+  .linkedingbtn {
+    position: absolute;
+    right: 3%;
+  }
+
+}
+
+/* neeraj card end */
