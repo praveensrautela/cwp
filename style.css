@@ -538,3 +538,27 @@ body {
   top: 0;
   width: 100%;
 }
+
+
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffcc00 !important;
+  border-color: #ffcc00 !important;
+  color: #000;
+  /* make text readable */
+  box-shadow: none;
+  /* remove default shadow */
+}
+
+/* Optional: active accordion border */
+.accordion-item {
+  border: 1px solid #ffcc00 !important;
+  border-radius: 0.25rem;
+  /* match bootstrap */
+}
+
+/* Keep collapsed ones normal */
+.accordion-button.collapsed {
+  background-color: #fff;
+  color: #000;
+}
