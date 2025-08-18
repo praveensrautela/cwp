@@ -531,3 +531,8 @@ body {
 }
 
 /* neeraj card end */
+#bgCanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
