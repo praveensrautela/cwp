@@ -499,7 +499,7 @@ body {
   /* position: absolute;
   bottom: 10%;
   left: 5%; */
-  background: #ffcc00;
+  background: #ffeb00;
   color: black;
   font-weight: bold;
 
@@ -507,7 +507,7 @@ body {
 }
 
 .bookstrategy {
-  background-color: #ffcc00;
+  background-color: #ffeb00;
   border-radius: 8px;
   display: inline-block;
   cursor: pointer;
@@ -524,13 +524,13 @@ body {
 }
 
 .bookstrategy:hover {
-  background: #ffcc00;
+  background: #ffeb00;
   color: black;
 }
 
 .linkedingbtn {
   border: 1px solid #0077B5;
- 
+
 }
 
 .neerjimg {
@@ -558,8 +558,8 @@ body {
 
 
 .accordion-button:not(.collapsed) {
-  background-color: #ffcc00 !important;
-  border-color: #ffcc00 !important;
+  background-color: #ffeb00 !important;
+  border-color: #ffeb00 !important;
   color: #000;
   /* make text readable */
   box-shadow: none;
@@ -568,7 +568,7 @@ body {
 
 /* Optional: active accordion border */
 .accordion-item {
-  border: 1px solid #ffcc00 !important;
+  border: 1px solid #ffeb00 !important;
   border-radius: 0.25rem;
   /* match bootstrap */
 }
