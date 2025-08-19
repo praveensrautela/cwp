@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark  px-3">
         <a class="navbar-brand d-flex align-items-center" href="#" aria-label="CWP home page">
           <div class="logo-box" aria-hidden="true">
-            <img src="Images/cwslogo.jpeg" alt="" style="height: 50px">
+            <img src="Images/cwslogo.jpeg" alt="" height="60">
           </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -62,26 +62,47 @@
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
-
       <div class="modal-content">
+
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="contact-form">
+
+        <div class="contact-form p-3">
           <h4 class=" mb-3 text-center text-dark">Get In Touch !</h4>
           <p class="text-center text-dark">Let's get this conversation started</p>
-          <form>
+
+          <!-- Bootstrap Alert (hidden initially) -->
+          <div id="formAlert" class="alert alert-success alert-dismissible fade show d-none" role="alert">
+            ✅ Your message has been submitted successfully!
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
+          </div>
+
+          <!-- Form -->
+          <form id="contactForm">
             <input type="text" class="form-control mb-3" placeholder="Your Name*" required>
             <input type="text" class="form-control mb-3" placeholder="Your Business Name">
             <input type="email" class="form-control mb-3" placeholder="Your Email*" required>
             <input type="tel" class="form-control mb-3" placeholder="Your Phone Number*" required>
             <textarea class="form-control mb-3" placeholder="Message" rows="4"></textarea>
-            <button type="submit" data-aos="zoom-in">SUBMIT MESSAGE</button>
+            <button type="submit" class="btn btn-primary w-100" data-aos="zoom-in">SUBMIT MESSAGE</button>
           </form>
         </div>
       </div>
     </div>
   </div>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault(); // stop real form submission
+      // Show alert
+      const alertBox = document.getElementById("formAlert");
+      alertBox.classList.remove("d-none");
+      // Optionally reset form
+      this.reset();
+    });
+  </script>
+
 
   <!-- contact form model  -->
 
@@ -544,24 +565,13 @@
     </div>
   </section>
 
-
-
-
-
-
-
-
-
-
-
-
   <footer class="footer-section py-5 text-white">
     <div class="container">
       <div class="row gy-4">
         <!-- Logo & About -->
         <div class="col-lg-3 col-md-6">
           <h5 class="fw-bold mb-3">
-            <img src="Images/cwslogo.jpeg" alt="CWP Logo" height="60" class="me-2">
+            <img src="Images/cwslogo.jpeg" alt="CWP Logo" height="60" >
           </h5>
           <p>CREATING THE RIGHT MARKETING ENVIRONMENT FOR SMEs BY DIGITAL TRANSFORMATION</p>
           <div class="d-flex gap-2 mt-3">
