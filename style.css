@@ -578,3 +578,12 @@ body {
   background-color: #fff;
   color: #000;
 }
+
+
+@media (min-width: 992px) {
+
+  /* lg breakpoint */
+  .pe-lg-45 {
+    padding-right: 45px !important;
+  }
+}
