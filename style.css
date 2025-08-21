@@ -410,7 +410,7 @@ body {
 .footer-section {
   background-image:
     linear-gradient(to right, rgba(29, 29, 29, 0.9), rgba(29, 29, 29, 0.9)),
-    url('images/footerbg.png');
+    url('Images/footerbg.png');
 }
 
 .footer-links li {
